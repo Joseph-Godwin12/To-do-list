@@ -116,3 +116,21 @@ ul li span:hover {
     background-color: #edeef0;
     border-radius: 50px;
 }
+
+/* Media Query */
+@media screen and (min-width: 320px) {
+
+    .todo-app {
+        max-width: 310px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .todo-app {
+        width: 100%;
+        max-width: 300px;
+        padding: 50px;
+
+    }
+}
